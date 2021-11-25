@@ -8,7 +8,7 @@ _This script is purely for educational use. Any consequenses or damages arising 
 <br />
 
 ### Usage
-## Starting
+#### Starting
 > ChromePE is a post-exploitation tool. This means that it is meant to be placed on a victim's computer, where it will then remotely alert the attacker to more data.
 
 **Attacker Setup**
@@ -19,4 +19,4 @@ _This script is purely for educational use. Any consequenses or damages arising 
 1. ``cd path-to-chromePE/client``
 2. ``python3 comm.py``
 
-## Attacking/Screenshots
+#### Attacking/Screenshots
