@@ -21,13 +21,34 @@ _This script is purely for educational use. Any consequenses or damages arising 
 
 #### Attacking/Screenshots
 **Attacker**
-After starting the program, the attacker will be presented with a CLI and asked to select an option. 
-###### Option Guide:
-1. Start the Program
-2. Get help (can also do when started via ``--help`` flag)
-99. Exit the program
+> After starting the program, the attacker will be presented with a CLI and asked to select an option. 
+> 
+> #### Option Guide:
+> 1. Start the Program
+> 2. Get help (can also do when started via ``--help`` flag)
+> 99. Exit the program
+> 
+> ![Opt Guide](https://i.imgur.com/lRQmTEJ.png)
+> 
+> #### Command Guide
+> When the program is started, the attacker can remotely execute functions on the victim's computer through the CLI. A list of accepted commands is compiled below:
+> 1. --get-pwds : Returns the autofill password data stored on the victim's computer
+> 2. --get-bkmrks : Returns the bookmarks stored by the victim's computer
+> ![Bookmarks output](https://i.imgur.com/jH6GlqV.png)
+> 3. --get-hist : Returns the browser history of the victim
+> 4. --get-dwnlds : Returns the victim's files recently downloaded through Chrome
+> 5. --redir URL True/False : Redirects the victim's Chrome session to a specified URL, with keylogging enabled/disabled.
+> ![Redir output](https://i.imgur.com/dZdHuot.png)
+> 
+> 6. --help : returns a list of commands
+> 7. exit : exits the program
+
+<br />
 
 #### Credits
+Chrome password function : originally sourced from [HERE](https://github.com/priyankchheda/chrome_password_grabber), modified to allow silent returns, fix various special charcter bugs, etc. Give them a ⭐!
+
+<br />
 
 ### License
 ```
