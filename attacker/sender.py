@@ -49,7 +49,7 @@ def comm(req):
 					print('')
 				else:
 					divider()
-					print("REDIR: {keylog True} = "+str(msg[0]))
+					print("REDIR: {keylog True} = "+str(msg))
 					divider()
 					print('')
 			else:
